@@ -1,0 +1,90 @@
+body {
+    background: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.team_cont {
+    margin-top: 100px;
+}
+
+.K_Container {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.headings {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.heading2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(0, 0%, 48%);
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .container1 img{
+    height: 300px;
+    width: 250px;
+    box-shadow: -5px 5px 10px #aaa;
+    -moz-box-shadow:    -5px 5px 5px #aaa;
+  -webkit-box-shadow: -5px 5px 5px #aaa;
+  }
+  .bottom-left {
+    position: absolute;
+   background-color: red;
+   width: 94%;
+   overflow: hidden;
+  position: absolute;
+  bottom: 8px;
+  padding: 5px;
+  margin: 10px 15px;
+
+}
+ .container1:hover .bottom-left{
+    background-color: white;
+    color: red;
+    
+  }
+.modal .modal_img img{
+    margin-top: 0;
+    padding: 0;
+   height: 250px;
+   width: 100%;
+}
+.speaker_info{
+    margin-bottom: 30px;
+}
+.modal .modal_img p{
+    font-size: 18px;
+}
+
+@media(max-width:600px) {
+    .heading2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: hsl(0, 0%, 48%);
+        font-size: 16px;
+    }
+    .headings {
+        font-weight: 800;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+    .modal .modal_img img{
+        
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+     }
+     .modal .modal_img p{
+         font-size: 12px;
+     }
+    }

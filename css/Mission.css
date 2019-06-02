@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+}
+.Mission_container{
+  position: relative;
+}
+
+.Mission_container .sponser_heading h1{
+  color: white;
+}
+.parallaxcont {
+  background-image: url("../images/Background/microphone.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  margin: none;
+  padding: none;
+  z-index: 8;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: none;
+  padding: none;
+}
+.content span img{
+  color: white;
+  position: absolute;
+  height:300px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-60%, -90%);
+  color: white;
+  font-size: 60px;
+  margin: none;
+  padding: none;
+}
+.content  .TED{
+  position: absolute;
+  color: red;
+  font-size: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+  transform: translate(-160%, -170%);
+  top:30%;
+  left: 50%;
+}
+.content  .X{
+  position: absolute;
+  color: red;
+  font-size: 250px;
+  font-family: Helvetica;
+  font-weight: bold;
+  transform: translate(-40%, -95%);
+  top:30%;
+  left: 50%;
+}
+.content  .TALKS{
+  position: absolute;
+  color: red;
+  font-size: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+  transform: translate(60%, -170%);
+  top:30%;
+  left: 50%;
+}
+.tedtalks{
+  text-align: center;
+}
+
+.content_image{
+  padding: 50px;
+  color: white;
+  margin: 0;
+  
+}
+.content_image img{
+  margin-bottom: 30px;
+  height: 300px;
+}
+
+.content_image img:hover{
+  transform: scale(1.1);
+}
+@media(max-width:980px) {
+.content span img{
+  transform: translate(-50%, -135%);
+  height: 250px;
+}
+.content  .Explore{
+  font-size: 60px;
+  transform: translate(-210%, -300%);
+}
+.content  .Monster{
+  font-size: 60px;
+  transform: translate(20%, -300%);
+}
+.content_text h3{
+  transform: translate(-50%, -10%);
+  top:50%;
+  left: 50%;
+  font-size: 20px;
+}
+.tedtalks{
+  font-size: 20px;
+}
+}
+@media(max-width:500px) {
+  .parallaxcont {
+    padding: none !important;
+    margin: none !important;
+  }
+  
+  p{
+    font-size: 18px;
+  }
+  .content_image img{
+    height:100px;
+    margin-bottom: 30px;
+  }
+  }

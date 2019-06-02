@@ -1,0 +1,151 @@
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.container-contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgb(255, 185, 185);
+    
+    
+  }
+  
+  .wrap-contact100 {
+    width: 1120px;
+    background: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px rgb(194, 134, 134);
+  }
+
+  .contact100-more {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 15px 0px 15px;
+  }
+  
+  .contact100-more::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+  }
+.Con-cont{
+    margin-top: 0;
+    position: relative;
+    background-image: url("../images/Background/world.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+.content h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    margin: none;
+    padding: none;
+}
+.for-contact{
+    padding: 30px;
+}
+.contact {
+    margin-top: 20px;
+}
+
+.contact .contact-info {
+    margin-top: 70px;
+}
+
+.contact .for-contact {
+    padding: 20px;
+}
+
+.heading {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+.fa-problem i {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1;
+    text-align: center;
+}
+
+.fa-problem i:hover {
+    color: #e33333;
+    background-color: white;
+}
+
+.contact input {
+    height: 60px;
+}
+
+.form-control {
+    font-size: 20px;
+}
+.loginbox button{
+    color: white;
+    background: #e33333;
+    margin-right: 40%;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px #c26161;
+}
+@media (max-width: 600px) {
+    .loginbox button{
+        margin-bottom: 30px;
+    }
+    .Con-cont{
+        margin-top: 0;
+        position: relative;
+        background-image: url("../images/Background/world.jpg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 16px;
+    }
+    .email_info h3{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+  }
+
+  nav .sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: #f8f6f6;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(0, 100%, 51%);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #030303;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  }
+  .sidenav .attenForm {
+    color: hsl(0, 0%, 0%);
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 18px;
+    background-color: white;
+    color: red ;
+    position: absolute;
+    z-index: 99999;
+  }
+  #main span{
+    font-size: 30px;
+  }
+  
+  @media(max-width:550px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #main span{
+      font-size: 18px;
+    }
+    ::-webkit-scrollbar { width: 0 !important }
+  }
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(160, 160, 160);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+}

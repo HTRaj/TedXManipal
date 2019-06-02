@@ -1,0 +1,51 @@
+body, html {
+    height: 100vh;
+    font-family: Poppins-Regular, sans-serif;
+    overflow: hidden;
+    background-color: red;
+}
+
+.theme-pic{
+    margin-top: 0;
+   
+  }
+
+  .theme-pic img{
+    height: 100vh;
+    box-shadow: 5px 0px 10px rgb(77, 77, 77);
+  }
+ .tex{
+    padding-top: 20%;
+    color: white;
+    
+ }
+ .tex p{
+  padding: 10px;
+  font-size: 18px;
+  
+}
+.tex h1{
+  font-size: 23px;
+  
+}
+ @media (max-width: 900px) {
+    .theme-pic img{
+        width: 100%;
+        height: 50vh;
+      }
+      .tex{
+        padding-top: 2%;
+        color: white;
+        
+     }
+      .tex p{
+        padding: 5px;
+        font-size: 14px;
+        
+      }
+      
+     .tex h1{
+      font-size: 23px;
+      
+    }
+}
